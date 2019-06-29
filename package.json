@@ -1,0 +1,27 @@
+{
+  "name": "express_portfolio",
+  "version": "1.0.0",
+  "description": "express powered professional portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-David639/Portfolio.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Jacob David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jake-David639/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Jake-David639/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
