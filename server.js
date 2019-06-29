@@ -10,7 +10,7 @@ var app = express();
 // Express settings to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// setting epress to use the public folder
+// setting epress to serve content from the public folder
 app.use(express.static('public'));
 
 // Routes
